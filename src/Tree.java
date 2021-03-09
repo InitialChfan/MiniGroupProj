@@ -40,6 +40,15 @@ public class Tree {
         }
     }
 
+    //TODO: implement the find method, return true if key is found
+    public boolean find(int key)
+    {
+        return true;
+    }
+
+    //TODO: walk through the leaf Node and print the key in ascending order
+    public void print(){}
+
 
     //=========================================== Inner classes ===============================================
     abstract class Node {
@@ -188,14 +197,7 @@ public class Tree {
         }
     }
 
-    //TODO: implement the find method, return true if key is found
-    public boolean find(int key)
-    {
-        return true;
-    }
 
-    //TODO: walk through the leaf Node and print the key in ascending order
-    public void print(){}
 
 
 }
