@@ -94,6 +94,7 @@ public class Tree {
          * call the split() in the child Node
          * </p>
          */
+        //fixme: consider the duplicate situation when adding to the leaf node
         boolean add(int value) {
             for (int i = 1; i < pointer; ) {
                 if (value < child[i].values[0]) {
