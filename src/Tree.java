@@ -18,7 +18,7 @@ public class Tree {
         //however, if we add elements in sequence, it at most contains 10 elements
         // add 11 elements will throw runtime exception
         // and 10 elements will be fine
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 8; i++) {
             t.add(i);
         }
 
